@@ -33,7 +33,7 @@ void print1(Node1 *head);
 
 void print(Node* head);
 
-void copylist(Node *head, Node **head1);
+void copylist(Node *head, Node *head1);
 
 void deleteV(Node **head, Data val);
 

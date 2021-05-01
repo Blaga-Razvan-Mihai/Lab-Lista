@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 #include "lista.h"
 
 void addAtBeginning(Node **head, Data v)
@@ -43,7 +44,7 @@ void print(Node *head)
     }
 }
 
-void copylist(Node *head, Node **head1){
+void copylist(Node *head, Node *head1){
     Node *headcopy=head; 
     Data v;
     while(headcopy!=NULL){

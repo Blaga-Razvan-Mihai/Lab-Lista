@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <string.h>
 #include "lista.h"
-#include "functii.c"
 
 int main()
 {
@@ -101,7 +100,7 @@ int main()
     print(head);
     printf("\n");
     Node1 *head1=NULL;
-    copylist(head,&head1);
+    copylist(head,head1);
 
     fclose(f);
     return 0;
